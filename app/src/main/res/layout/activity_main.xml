@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Display whether bluetooth is available or not-->
+    <TextView
+        android:id="@+id/statusBluetoothTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:importantForAccessibility="no"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="11dp" />
+
+    <Button
+        android:id="@+id/onBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="287dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/turn_on"
+        android:textColor="@color/black"
+        android:background="@drawable/round_button"
+        android:visibility="gone"
+        app:backgroundTint="#00FF00" />
+
+
+    <Button
+        android:id="@+id/connectBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="287dp"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/round_button"
+        android:minWidth="200dp"
+        android:text="@string/bt_connect"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_red_light" />
+
+    <RelativeLayout
+        android:id="@+id/deviceControl"
+        android:layout_width="match_parent"
+        android:layout_below="@id/connectBtn"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/offBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/deviceControl"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="94dp"
+            android:text="@string/turn_off"
+            android:textColor="@color/black"
+            app:backgroundTint="#FF0000"
+            tools:ignore="NotSibling"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/piReboot"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_autorenew_24"
+            android:backgroundTint="@color/orange_sun"
+            android:contentDescription="@string/deviceReboot" />
+
+        <Button
+            android:id="@+id/piOff"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_power_settings_new_24"
+            android:contentDescription="@string/deviceOff" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/content1"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        android:enabled="false" />
+
+
+</RelativeLayout>

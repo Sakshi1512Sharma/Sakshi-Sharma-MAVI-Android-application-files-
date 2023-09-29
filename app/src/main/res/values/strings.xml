@@ -1,0 +1,61 @@
+<resources>
+<string name="app_name">MAVI</string>
+<string name="app_description">Welcome to the Mobility Assistant Application</string>
+
+<string name="bt_connect">Connect for detection</string>
+<string name="turn_on">Turn On Bluetooth</string>
+<string name="turn_off">Turn Off Bluetooth</string>
+<string name="deviceReboot">Restart the device</string>
+<string name="deviceOff">Switch off the device</string>
+
+<string name="device_name">Device Name</string>
+<string name="mac_address">Mac Address</string>
+<string name="paired">Paired Device</string>
+
+<string name="btdeviceadaptermsg">Here we have name of the MAVI device for establishing Bluetooth connection</string>
+
+<string name="od">Object Detection</string>
+<string name="pd">Pedestrian Detection</string>
+<string name="sd">Signboard Reading</string>
+<string name="odc">Animal and Signboard detection</string>
+<string name="sdc">Signboard reading</string>
+<string name="TextControl">Controller not connected</string>
+
+<string name="connect_button">Status</string>
+
+<string name="connected">Device Connected.....</string>
+<string name="disconnected" translatable="false">Device Disconnected</string>
+<string name="bt_enable">Bluetooth Enabled!</string>
+<string name="bt_notenabled">Bluetooth Not Enabled!</string>
+<string name="lastPairedName">Connecting .."</string>
+
+<string name="modelLoaded">Loaded</string>
+<string name="modelNotLoaded">Not Loaded </string>
+<string name="error">Error</string>
+
+<string name="connected_waiting">Connected! Waiting for results.</string>
+<string name="not_connected_waiting">Not Connected to the Device.</string>
+
+<string name="on">on</string>
+<string name="faceString">Person at</string>
+<string name="dog">dog</string>
+<string name="cow">cow</string>
+<string name="signboard">signboard</string>
+<string name="left">on left</string>
+<string name="right">on right</string>
+<string name="center">on center</string>
+
+<string name="object_prefix">Object: </string>
+<string name="pedestrian_prefix"> </string>
+<string name="signboard_prefix">Signboard: </string>
+
+<string name="content1"> This screen has 3 buttons - in the Centre of the screen is Connect for Detection button,
+        at the Bottom of the screen there are 2 buttons : Bottom Left is Device Reboot button
+        and Bottom Right is Device OFF </string>
+
+<string name="content2"> From here select the device to set up a Bluetooth Connection </string>
+
+<string name="content3"> This screen has 2 switches - at the Centre of the screen is Object Detection switch, at the Bottom of
+        the screen is Signboard Reading switch </string>
+
+</resources>

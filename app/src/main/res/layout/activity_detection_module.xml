@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetectionModule"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wave1inv"
+    android:orientation="vertical">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/content3"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <Button
+        android:id="@+id/connect_global"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:focusable="true"
+        android:importantForAccessibility="no"
+        android:text="@string/connect_button" />
+
+    <TextView
+        android:id="@+id/textBox"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/TextControl"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:importantForAccessibility="no"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/objectDetectSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/odc"
+        android:thumb="@drawable/thumb_layerlist_object"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Object Detection    "
+        app:showText="false"
+        app:track="@drawable/track_drawable" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/signboardDetectSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:contentDescription="@string/sdc"
+        android:thumb="@drawable/thumb_layerlist_signboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Signboard Reading    "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showText="false"
+        app:track="@drawable/track_drawable" />
+
+</RelativeLayout>
