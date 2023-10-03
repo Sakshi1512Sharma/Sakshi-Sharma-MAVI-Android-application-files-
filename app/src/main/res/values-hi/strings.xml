@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">मावी</string>
+    <string name="app_description">मोबिलिटी असिस्टेंट एप्लिकेशन में आपका स्वागत है</string>
+
+    <string name="bt_connect">कनेक्ट फॉर डिटेक्शन</string>
+    <string name="turn_on">टर्न ऑन ब्लूटूथ</string>
+    <string name="turn_off">टर्न ऑफ ब्लूटूथ</string>
+    <string name="deviceReboot">डिवाइस को पुनरारंभ करें</string>
+    <string name="deviceOff">डिवाइस को बंद कर दें</string>
+
+    <string name="device_name">डिवाइस का नाम</string>
+    <string name="mac_address">मैक एड्रेस</string>
+    <string name="paired">पैरेड डिवाइस</string>
+
+    <string name="btdeviceadaptermsg">ब्लूटूथ कनेक्शन करने के लिए यहाँ पर क्लिक करें </string>
+
+    <string name="od">ऑब्जेक्ट डिटेक्शन</string>
+    <string name="pd">पेडेस्ट्रियन डिटेक्शन</string>
+    <string name="sd">सैंबोर्ड़ पढ़ने के लिए</string>
+    <string name="odc">यह स्विच ऑब्जेक्ट डिटेक्शन के लिए है। टॉगल करने के लिए दो बार टैप करें</string>
+    <string name="sdc">साइनबोर्ड को पढ़ने के लिए टॉगल करें</string>
+    <string name="TextControl">कंट्रलर से कनेक्टेड नहीं है</string>
+
+    <string name="connect_button">स्टेटस</string>
+
+    <string name="connected">डिवाइस जुड़ गया......</string>
+    <string name="disconnected" translatable="false">डिवाइस डिस्कनेक्ट हो गया</string>
+    <string name="bt_enable">Bluetooth Enabled!</string>
+    <string name="bt_notenabled">Bluetooth Not Enabled!</string>
+    <string name="lastPairedName">कनेक्टिंग .."</string>
+
+    <string name="modelLoaded">लोडेड</string>
+    <string name="modelNotLoaded">लोडेड नहीं है</string>
+    <string name="error">एरर</string>
+
+    <string name="connected_waiting">कनेक्ट किया गया! प्रतीक्षा में</string>
+    <string name="not_connected_waiting">डिवाइस से कनेक्टेड नहीं है</string>
+
+    <string name="on">पर</string>
+    <string name="faceString">व्यक्ति इस जगह पर</string>
+    <string name="dog">कुत्ता</string>
+    <string name="cow">गाय</string>
+    <string name="signboard">साइनबोर्ड</string>
+    <string name="left">बाएँ ओर है </string>
+    <string name="right">दाएँ ओर है </string>
+    <string name="center">मध्य में है</string>
+
+    <string name="object_prefix">ऑब्जेक्ट: </string>
+    <string name="pedestrian_prefix"> </string>
+    <string name="signboard_prefix">साइनबोर्ड: </string>
+
+    <string name="content1"> इस स्क्रीन पर 2 बटन हैं - स्क्रीन के केंद्र में कनेक्ट फॉर डिटेक्शन बटन है,
+        और स्क्रीन पर नीचे डिवाइस बंद करें बटन है </string>
+
+    <string name="content2"> ब्लूटूथ कनेक्शन के लिए यहाँ पर डबल क्लिक करें </string>
+
+    <string name="content3"> इस स्क्रीन पर 2 स्विच हैं - स्क्रीन के केंद्र में ऑब्जेक्ट डिटेक्शन स्विच है, नीचे की ओर साइनबोर्ड रीडिंग स्विच है </string>
+
+</resources>

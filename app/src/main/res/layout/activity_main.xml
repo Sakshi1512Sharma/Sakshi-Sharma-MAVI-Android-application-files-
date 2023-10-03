@@ -84,7 +84,8 @@
             android:layout_weight="1"
             android:background="@drawable/ic_baseline_autorenew_24"
             android:backgroundTint="@color/orange_sun"
-            android:contentDescription="@string/deviceReboot" />
+            android:contentDescription="@string/deviceReboot"
+            android:visibility="gone"/>
 
         <Button
             android:id="@+id/piOff"

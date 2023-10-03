@@ -565,7 +565,7 @@ public class DetectionModule extends AppCompatActivity {
                      }
                   }
                     // Show a temporary pop-up view
-                    showTemporaryMessage(" Please wait I am loading the details in 5 seconds        ");
+                    showTemporaryMessage(" Please wait I am loading the details in 10 seconds        ");
                 }
             }
         });
@@ -577,7 +577,7 @@ public class DetectionModule extends AppCompatActivity {
                     temp = "n";
 
                     // Show a temporary pop-up view
-                    showTemporaryMessage(" I am about to read the signboard in 5 seconds        ");
+                    showTemporaryMessage(" Signboard reading starts in 5 seconds        ");
 
                     mApp.setSignboardDetectStatus(temp);
                     if (mApp.updateVariable("signboardDetection", temp)) {

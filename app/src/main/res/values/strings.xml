@@ -49,9 +49,8 @@
 <string name="pedestrian_prefix"> </string>
 <string name="signboard_prefix">Signboard: </string>
 
-<string name="content1"> This screen has 3 buttons - in the Centre of the screen is Connect for Detection button,
-        at the Bottom of the screen there are 2 buttons : Bottom Left is Device Reboot button
-        and Bottom Right is Device OFF </string>
+<string name="content1"> This screen has 2 buttons - in the Centre of the screen is Connect for Detection button,
+        at the Bottom is Device OFF </string>
 
 <string name="content2"> From here select the device to set up a Bluetooth Connection </string>
 
